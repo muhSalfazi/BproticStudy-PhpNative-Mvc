@@ -1,5 +1,5 @@
 <?php
-class Hewan {
+class HewanPublic {
     // visibility
     // public, protected, private
     public $mata;
@@ -16,18 +16,19 @@ class Hewan {
     }
 
     private function berjalan(){
-        return "Hewan ini berjalan<br>";
+        echo "Hewan ini berjalan<br>";
     }
-
 
 }
 // buat object
-$kelinci = new Hewan();
+$kelinci = new HewanPublic();
 
 /*public
 echo $kelinci->mata(); // bisa diakses dari luar class  
 */
-echo $kelinci->mata ="hitam";  
+echo"visibility public:".$kelinci->mata ="hitam";
+
+echo"visibility protected dan private";
 /*protected
 echo $kelinci->telinga(); // tidak bisa diakses dari luar class, hanya bisa diakses dari dalam class atau class turunan*/
 echo $kelinci->telinga ="panjang";
