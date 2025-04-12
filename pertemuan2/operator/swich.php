@@ -2,6 +2,8 @@
 /*   
     - Digunakan untuk membandingkan satu variabel dengan beberapa nilai yang berbeda.
     - Lebih efisien daripada menggunakan banyak if-else if.
+    bisa diartika Pilih sesuai nilai variabel
+    - Lebih mudah dibaca dan dipahami.
 */
 $hari = "selasa";
 

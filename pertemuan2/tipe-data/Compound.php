@@ -11,6 +11,7 @@ class Siswa {
     public $nama;
     public $umur;
     
+    // Constructor untuk menginisialisasi properti
     function __construct($nama, $umur) {
         $this->nama = $nama;
         $this->umur = $umur;
