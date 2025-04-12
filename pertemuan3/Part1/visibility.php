@@ -24,10 +24,14 @@ class Hewan {
 // buat object
 $kelinci = new Hewan();
 
-// public
-echo $kelinci->hidup= "hitam";
-echo $kelinci->mata ="hitam";        
+/*public
+echo $kelinci->mata(); // bisa diakses dari luar class  
+*/
+echo $kelinci->mata ="hitam";  
+/*protected
+echo $kelinci->telinga(); // tidak bisa diakses dari luar class, hanya bisa diakses dari dalam class atau class turunan*/
 echo $kelinci->telinga ="panjang";
+// echo $kelinci->kaki ="4"; // error, karena private hanya bisa diakses di dalam class itu sendiri
 echo $kelinci->kaki ="4";
 
 
