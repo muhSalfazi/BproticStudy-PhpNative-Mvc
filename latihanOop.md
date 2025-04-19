@@ -111,22 +111,21 @@ Buatlah kelas `Vehicle` dengan method `move()`. Kemudian buat kelas turunan `Car
 
 ---
 
-## 7) Studi Kasus: Polimorfisme
-
-Buatlah kelas `Animal` dengan method `makeSound()`. Kemudian buat kelas turunan `Dog` dan `Cat` yang mengoverride method tersebut. Demonstrasikan polimorfisme dengan membuat array yang berisi objek `Animal`, `Dog`, dan `Cat`.
+## 7) Studi Kasus: Namespace dan Import
+Buatlah dua namespace yang berbeda: A dan B. Masing-masing namespace memiliki kelas Car dengan method getDetails(). Gunakan use untuk mengimpor kelas tersebut dan tampilkan detail mobil dari masing-masing namespace.
 
 ---
 
-## 8) Studi Kasus: Encapsulation
+## 8) Studi Kasus: Encapsulation(setter-getter)
 
 Buatlah kelas `User` dengan properti private `password`. Implementasikan setter dan getter untuk `password` agar dapat diubah dan diambil nilainya dengan aman.
 
 
 ---
 
-## 9) Studi Kasus: Menggunakan Abstract Class
+## 9) Studi Kasus: Method dan Method Statis
 
-Buatlah kelas abstrak `Shape` dengan method abstrak `getArea()`. Kemudian buat kelas `Rectangle` yang mengimplementasikan method `getArea()` untuk menghitung luas persegi panjang.
+Buatlah kelas Counter dengan properti statis count dan method statis increment() yang menambah nilai count sebanyak 1. Tambahkan method non-statis getCount() untuk mengambil nilai count.
 
 ---
 
